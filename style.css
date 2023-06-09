@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: #008000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.certificados-image {
+  width: 90px;
+}
+
+
+.certificados-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certificados-title img {
+  margin-left: 10px;
+}
+
+
+h1 {
+  margin: 0;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile h2 {
+  margin: 10px 0;
+  font-size: 28px;
+  color: #008000;
+}
+
+.profile {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+
+
+.profile {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.profile p {
+  font-size: 18px;
+  color: #555;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+}
+
+
+.certificate-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+.certificate {
+  width: 300px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.certificate img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.certificate {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.certificate {
+  transition: box-shadow 0.3s ease;
+}
+
+.certificate:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .certificate {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .certificate {
+    width: calc(33.33% - 20px);
+  }
+}
